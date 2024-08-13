@@ -1,10 +1,8 @@
-/* Asegúrate de que el botón esté oculto por defecto */
 .btn.hovertrue {
-    display: none; /* Oculta el botón por defecto */
+    display: none;
 }
 
-/* Muestra el botón cuando el usuario pasa el ratón sobre el contenedor */
 .list-group-item:hover .btn.hovertrue {
-    display: block; /* Muestra el botón */
-    background-color: red; /* Cambia el fondo del botón cuando se muestra */
+    display: block; 
+    background-color: red;
 }
