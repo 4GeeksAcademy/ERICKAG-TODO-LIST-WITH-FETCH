@@ -19,7 +19,6 @@ const Home = () => {
         });
         const response = await request.json();
         setTasks(response.todos);
-        console.log(response.todos);
     };
 
     const createTask = async () => {
@@ -33,7 +32,7 @@ const Home = () => {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-                label: input,
+                label: input,	
                 is_done: false
             })
         });
